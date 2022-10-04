@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+/* navbar CSS start */
+.nav-link{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: green !important;
+
+}
+.logo-img{
+    width: 8%;
+}
+@media screen and (min-width: 992px) {
+    .logo-img {
+        width: 8%;
+    }
+  }
+/* navbar CSS end */ 
+
+/* banner section start */
+.sec2{
+    position: relative;
+    color: white;
+}
+
+.center-img{
+    width: 100%;
+    height: auto;
+    filter: brightness(0.5);
+}
+.centered {
+    text-align: center;
+    color: white;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 576px) {
+    .center-name {
+        font-size: 1.2rem;
+    }
+    .center-para{
+        font-size: 0.9rem !important;
+    }
+    .logo-img{
+        width: 15%;
+    }
+    .center-img{
+        height: 360px;
+        width: 100%;
+    }
+  }
+@media screen and (max-width: 762px) {
+    .sec2{
+        margin: 0rem 2rem !important;
+    }
+  }
+@media screen and (max-width: 768px) and (min-width : 575px) {
+    .center-name {
+        font-size: 1.4rem;
+    }
+    .center-para{
+        font-size: 0.8rem !important;
+    }
+  }
+  /* banner section end */
+
+
+  /* features section start */
+  .features{
+    background-color: green;
+  }
+  .info{
+    margin: 0px;
+  }
+  .abc{
+    padding-right:0 !important
+  }
+  .row{
+    margin-left: 0px !important;
+  }
+  /* features section start */
+
+.about-text{
+    margin-top: 7% !important;
+    text-align: justify;
+}
+
+
+
+/* need a project */
+.project{
+    border: 1px solid green;
+}
+.lets-talk-para{
+    margin: 1% 8%;
+    text-align: justify;
+    justify-content: center;
+
+
+}
+.lets-talk-btn{
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    margin: auto;
+
+}
+/* need a project end  */
+
+.footer{
+    background-color:black
+}
+.foot-head{
+    color: white;
+}
+.foot-para{
+    color: white !important;
+}
+.foot-link{
+    color: white;
+}
